@@ -26,7 +26,6 @@ function getStarted(){
     document.getElementById('place1').innerHTML = '<p>' + output + '</p>';  //personal aesthetic
     document.getElementById('place2').innerHTML = '<p>' + reverseString(output) + '</p>';  //personal aesthetic
 }
-
 window.onload = function(){
     getStarted();
     listSkills();
