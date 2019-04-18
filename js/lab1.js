@@ -15,6 +15,7 @@ function listSkills(){
     document.getElementById('skills').innerHTML = '<p>' + output + '</p>'; //needed single quote on the closing "p" tag
 }
 
+
 function getStarted(){
     let firstName = 'Bruce'; //missing equals sign between variable and its value and semicolon
     let lastName = 'Elgort'; //missing semicolon
