@@ -22,7 +22,6 @@ function getStarted(){
     let city = 'Vancouver, Washington';
     let gpa = '3.2';  ///gpa was a number not a string (dicey)
     let output = `${firstName} ${lastName} is currently attending ${collegeName}, located in ${city} and has a grade point average of ${gpa}.`; //three "$'s" missing in the template and period at the end of the sentence(dicey)
-
     document.getElementById('place1').innerHTML = '<p>' + output + '</p>';  //personal aesthetic
     document.getElementById('place2').innerHTML = '<p>' + reverseString(output) + '</p>';  //personal aesthetic
 }
